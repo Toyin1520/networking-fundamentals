@@ -1,4 +1,5 @@
-# networking-fundamentals
+# networking-fundamentals 
+OSI MODEL
 The Osi model [open system inter connection] model is a conceptual frame work used to understand and implement network protocol in seven layers.
 SEVEN OSI MODELS LAYERS 
 1. Physical Layer :Transmits raw binary data over the physical medium ,example the physical layer is the actual ethernet cable, radio waves and fiber optics.
@@ -8,3 +9,9 @@ SEVEN OSI MODELS LAYERS
 5. Session Layer : This layer is responsible for establishing, managing and terminating connections between devices, example it's like a phone that makes a call [connection] maintains the call during conversation [manages] and ends it when you hang up[terminates].
 6. Prensentation Later : This layer formats the data in a way the receiving application can understands it, it encrpyt and decrpyt data if needed ,example when a translator converts one language to another.
 7. Application Layer : This layer provides network services directly to the end-user application , example it's like sending an email with a protocol like SMTP[simple mail transfer protocol].
+   IP ADDRESSING CALCULATIONS
+IP Address : A unique identifier eg[192.168.1.1]
+Subnet Mask : Defines network and host portions eg[255.255.255].
+Network Address : The first address in a subnet.
+Broadcast address : The last address in a subnet.
+Usable host : Total host in a subnet  minus 2[for network and  broadcast].
