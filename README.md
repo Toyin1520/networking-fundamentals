@@ -1,3 +1,4 @@
+
 # networking-fundamentals 
 OSI MODEL
 The Osi model [open system inter connection] model is a conceptual frame work used to understand and implement network protocol in seven layers.
@@ -15,3 +16,11 @@ Subnet Mask : Defines network and host portions eg[255.255.255].
 Network Address : The first address in a subnet.
 Broadcast address : The last address in a subnet.
 Usable host : Total host in a subnet  minus 2[for network and  broadcast].
+TCP/IP
+When you load a webpage  in a browser,the TCP/IP  protocol suites operates accross four layer.
+APPLICATION LAYER : sends receives webpage data,resolves domain names , protocol are HTTP,HTTPS.
+TRANSPORT LAYER : Ensures reliable data transmission , protocol are TCP.
+INTERNET LAYER : Routes packet accross the network, protocol are IP.
+NETWORK LINK LAYER : Moves data between devices physically, protocol address MAC ADDRESS
+The web server receives the request, processes it, and sends back an HTTP response.
+The TCP/IP layers reverse the process to return the data to the browser, the browser renders the webpage and displays it.
